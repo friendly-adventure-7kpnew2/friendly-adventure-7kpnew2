@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic HTML Page</title>
+  <meta name="description" content="A simple starter HTML page">
+  <style>
+    :root{--bg:#f6f8fa;--card:#ffffff;--accent:#0366d6;--muted:#6b7280}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);margin:0;padding:32px;color:#111}
+    .container{max-width:900px;margin:0 auto}
+    header{display:flex;align-items:center;gap:16px}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin-top:8px}
+    .card{background:var(--card);padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.06);margin-top:20px}
+    footer{margin-top:24px;color:var(--muted);font-size:0.9rem}
+    a.button{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+    pre{background:#0b1220;color:#e6eef8;padding:12px;border-radius:6px;overflow:auto}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo" width="44" height="44" style="border-radius:8px;">
+      <div>
+        <h1>Basic HTML Starter</h1>
+        <p class="lead">A small, clean starter page you can edit and expand.</p>
+      </div>
+    </header>
+
+    <main class="card" role="main">
+      <h2>Getting started</h2>
+      <p>This file includes a minimal structure and small inline stylesheet. Replace the content below with your own.</p>
+
+      <h3>Example content</h3>
+      <p>Use semantic elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> for better accessibility.</p>
+
+      <section>
+        <h4>Code sample</h4>
+        <pre>&lt;!-- Paste your HTML here --&gt;
+&lt;section&gt;
+  &lt;p&gt;Hello world&lt;/p&gt;
+&lt;/section&gt;
+        </pre>
+
+        <p>
+          <a class="button" href="#" onclick="alert('This is a demo button — replace it with your own actions.')">Demo button</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>If you want, I can add: a navigation bar, responsive layout, form, or GitHub Pages-ready configuration (CNAME, 404 fallback). Tell me which and I'll update the file.</p>
+    </footer>
+  </div>
+</body>
+</html>
